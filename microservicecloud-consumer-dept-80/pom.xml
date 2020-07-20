@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.atguigu.springcloud</groupId>
+		<groupId>com.jtfr</groupId>
 		<artifactId>microservicecloud</artifactId>
 		<version>1.0.0</version>
 	</parent>
@@ -13,7 +13,7 @@
 
 	<dependencies>
 		<dependency><!-- 自己定义的api -->
-			<groupId>com.atguigu.springcloud</groupId>
+			<groupId>com.jtfr</groupId>
 			<artifactId>microservicecloud-api</artifactId>
 			<version>${project.version}</version>
 		</dependency>
