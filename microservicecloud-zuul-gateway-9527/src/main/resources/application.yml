@@ -1,0 +1,17 @@
+server:
+  port: 9527
+spring:
+  application:
+    name: microservicecloud-zuul-gateway
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost.com:7001/eureka,http://localhost.com:7002/eureka,http://localhost.com:7003/eureka
+  instance:
+    instance-id: microservicecloud-zuul-gateway-9527:${project.version}	
+    prefer-ip-address: true
+info:
+  app.name: microservicecloud
+  company.name: www.baidu.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
